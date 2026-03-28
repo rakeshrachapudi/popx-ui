@@ -9,7 +9,6 @@ body {
   background: #f7f8f9;
 }
 
-/* Full center layout */
 .app-wrapper {
   height: 100vh;
   display: flex;
@@ -17,7 +16,6 @@ body {
   align-items: center;
 }
 
-/* Mobile frame */
 .container {
   width: 375px;
   height: 812px;
@@ -27,17 +25,14 @@ body {
   flex-direction: column;
 }
 
-/* Landing top spacing */
 .top-illustration {
   flex: 1;
 }
 
-/* Bottom section */
 .bottom {
   margin-top: auto;
 }
 
-/* Heading */
 .title {
   font-size: 26px;
   font-weight: 600;
@@ -57,7 +52,6 @@ body {
   margin-bottom: 16px;
 }
 
-/* Buttons */
 .btn {
   width: 100%;
   height: 46px;
@@ -78,7 +72,6 @@ body {
   color: #1d2226;
 }
 
-/* Form */
 .form-group {
   margin-bottom: 16px;
 }
@@ -98,13 +91,11 @@ body {
   padding: 8px;
 }
 
-/* Disabled login */
 .btn-disabled {
   background: #dcdcdc;
   color: #999;
 }
 
-/* Radio */
 .radio-group {
   margin-top: 10px;
   margin-bottom: 60%;
@@ -124,7 +115,6 @@ span {
   color: red;
 }
 
-/* Profile */
 .profile-header {
   display: flex;
   align-items: center;
@@ -151,7 +141,6 @@ span {
 .profile-desc {
   margin-top: 15px;
   font-size: 16px;
-  /* color: #6c757d; */
   border-bottom: 1.5px dashed #d1d0d0;
   padding-bottom: 30px;
   margin-bottom: 16px;
